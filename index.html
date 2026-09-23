@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dona Dominic | Senior Java Backend & Cloud Engineer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: '#0F172A',
+                        accent: '#2563EB',
+                        emerald: '#059669',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F8FAFC;
+            color: #0F172A;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        .glass-card {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="selection:bg-slate-900 selection:text-white">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-extrabold tracking-tight text-xl text-slate-900">
+                DONA DOMINIC<span class="text-blue-600">.</span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-blue-600 transition-colors">Overview</a>
+                <a href="#experience" class="hover:text-blue-600 transition-colors">Work Experience</a>
+                <a href="#projects" class="hover:text-blue-600 transition-colors">All Projects (8)</a>
+                <a href="#stack" class="hover:text-blue-600 transition-colors">Skills Matrix</a>
+            </nav>
+            <div class="flex items-center space-x-3">
+                <a href="https://www.linkedin.com/in/dona-dominic" target="_blank" class="px-4 py-2 bg-blue-600 text-white text-xs font-mono font-semibold rounded-lg hover:bg-blue-700 transition-all shadow-sm">
+                    LinkedIn Profile ↗
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 md:py-16 space-y-16">
+
+        <!-- Hero Section -->
+        <section id="about" class="space-y-6 max-w-4xl">
+            <div class="inline-flex items-center space-x-2 px-3 py-1 bg-blue-50 border border-blue-200 text-blue-800 rounded-full text-xs font-mono">
+                <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+                <span>Senior Backend Java Developer • Bengaluru, India</span>
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.12]">
+                Senior Java Backend Engineer specializing in <span class="text-blue-600">Microservices & Scalable Systems</span>
+            </h1>
+            
+            <p class="text-lg md:text-xl text-slate-600 font-normal leading-relaxed">
+                4 years of backend experience engineering REST APIs, distributed microservices, reusable Java libraries, and cloud platforms using <strong>Java, Spring Boot, Relational Databases, Docker, and Kubernetes (AKS)</strong>.
+            </p>
+
+            <div class="pt-2 flex flex-wrap gap-4 text-xs font-mono text-slate-500">
+                <a href="mailto:donadominic6599@gmail.com" class="hover:text-blue-600 underline underline-offset-4">📧 donadominic6599@gmail.com</a>
+                <span>•</span>
+                <span>📞 +91 8590304846</span>
+                <span>•</span>
+                <span>🎓 B.Tech (Honors) CSE (9.02 CGPA)</span>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="space-y-8 border-t border-slate-200 pt-12">
+            <div>
+                <span class="text-xs font-mono uppercase tracking-widest text-blue-600 font-semibold">Career History</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">Work Experience</h2>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Accenture -->
+                <div class="glass-card p-6 rounded-xl space-y-4">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-100 pb-3 gap-1">
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900">Accenture</h3>
+                            <p class="text-xs font-mono text-blue-600 font-semibold">Senior Java Backend Engineer</p>
+                        </div>
+                        <span class="text-xs font-mono text-slate-500">11/2023 — Present • Bengaluru (Serving Notice Period)</span>
+                    </div>
+                    <ul class="list-disc list-outside ml-4 text-xs text-slate-600 space-y-2.5 leading-relaxed">
+                        <li>Developed Spring Boot microservices using Java for enterprise-scale distributed applications.</li>
+                        <li>Built and maintained RESTful APIs consumed across internal microservices and frontend applications.</li>
+                        <li>Engineered high-throughput Java batch ingestion frameworks processing millions of daily IoT sensor records into OpenTSDB.</li>
+                        <li>Managed platform setup, Docker containerization, Kubernetes manifests, and Helm chart configurations across Azure Kubernetes Service (AKS).</li>
+                        <li>Conducted continuous vulnerability scanning, security patching, and vulnerability remediation across microservice deployments.</li>
+                        <li>Applied multithreading and concurrency principles to optimize large-scale data workflows and query executions.</li>
+                        <li>Engineered backend components integrating AWS Bedrock and Azure OpenAI for scalable document processing.</li>
+                        <li>Performed production support, root-cause analysis (RCA), and backend performance tuning.</li>
+                        <li>Leveraged AI coding and debugging tools to accelerate software development, refactoring, and defect isolation.</li>
+                    </ul>
+                </div>
+
+                <!-- Flutura -->
+                <div class="glass-card p-6 rounded-xl space-y-4">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-100 pb-3 gap-1">
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900">Flutura Decision Sciences / Analytics</h3>
+                            <p class="text-xs font-mono text-blue-600 font-semibold">Java Backend Developer</p>
+                        </div>
+                        <span class="text-xs font-mono text-slate-500">10/2022 — 11/2023 • Bengaluru</span>
+                    </div>
+                    <ul class="list-disc list-outside ml-4 text-xs text-slate-600 space-y-2.5 leading-relaxed">
+                        <li>Developed reusable backend services and generic Java security libraries integrated across multiple internal products.</li>
+                        <li>Designed and implemented pluggable data-source connector frameworks supporting RDBMS engines and cloud storage drivers.</li>
+                        <li>Built a metadata-driven Java templating engine for report generation, reducing execution effort from 3 months to 5 minutes.</li>
+                        <li>Applied SOLID principles and GoF Design Patterns to refactor monolithic services into modular backend architectures.</li>
+                        <li>Participated in CI/CD pipeline configuration, deployment activities, debugging, and performance optimization.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Complete Projects Directory (8 Systems) -->
+        <section id="projects" class="space-y-8 border-t border-slate-200 pt-12">
+            <div>
+                <span class="text-xs font-mono uppercase tracking-widest text-blue-600 font-semibold">Technical Deliverables</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">Project Experience & Architecture (All 8 Builds)</h2>
+                <p class="text-sm text-slate-500 pt-1">Comprehensive breakdown of microservices, libraries, and pipelines built across Accenture & Flutura.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <!-- Project 1: One-Click APQR Engine -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded">Microservices & AI</span>
+                        <span class="text-xs font-mono text-slate-400">Flutura</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">1. One-Click APQR Report Automation Engine</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Spring Boot microservice system automating pharmaceutical reports. Transforms XML/JSON metadata into formatted Word files complete with dynamic tables, embedded charts, and Spring AI-generated insights (3 months to 5 mins).
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Java</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Spring Boot</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Spring AI</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Tables & Charts</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Time-Series Visualization Tool -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded">Telemetry & Streaming</span>
+                        <span class="text-xs font-mono text-slate-400">Accenture</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">2. Time-Series Telemetry & Analytics Platform</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Grafana-like visualization system. Supports querying historical metrics across time-series databases (QuestDB, InfluxDB, Snowflake, etc.) and live streaming via MQTT. Enables adding datasets, plotting graphs, and saving dashboards.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Java</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Spring Boot</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">QuestDB</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">InfluxDB</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">MQTT</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Angular</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: Data Profiler -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-teal-600 bg-teal-50 px-2.5 py-1 rounded">Data Profiling</span>
+                        <span class="text-xs font-mono text-slate-400">Accenture</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">3. Distributed Data Profiling Platform</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Data profiling platform connecting to heterogeneous databases to generate data profiles using Spark in the backend. Created profiling functions and Angular UI components for dynamic charts and tables.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Spring Boot</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Scala</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Spark</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Angular</span>
+                    </div>
+                </div>
+
+                <!-- Project 4: Data Source Connector Framework -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-amber-600 bg-amber-50 px-2.5 py-1 rounded">Data Framework</span>
+                        <span class="text-xs font-mono text-slate-400">Flutura</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">4. Pluggable Data Source Connector Framework</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Generic Java connector framework connecting to various relational databases and cloud storage engines (AWS S3, Azure Blob, etc.) to extract schema metadata, tables, columns, and data previews.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Java</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Relational DBs (SQL)</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">AWS S3</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">JDBC</span>
+                    </div>
+                </div>
+
+                <!-- Project 5: Authenticator API -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded">Security & Auth</span>
+                        <span class="text-xs font-mono text-slate-400">Accenture</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">5. Generic Authenticator API Microservice</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        A pluggable Spring Boot microservice providing username/password authentication, Multi-Factor Authentication (MFA), and secure JWT token generation for cross-application login flows.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Java</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Spring Boot</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">JWT</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">MFA</span>
+                    </div>
+                </div>
+
+                <!-- Project 6: Multi-Cloud Vault Manager -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-purple-600 bg-purple-50 px-2.5 py-1 rounded">Security Library</span>
+                        <span class="text-xs font-mono text-slate-400">Flutura</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">6. Multi-Cloud Key Vault Manager Library</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Reusable Java security library abstracting key management APIs across Azure Key Vault, HashiCorp Vault, and AWS KMS to securely retrieve secrets without storing static credentials.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Java Core</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Azure Key Vault</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">AWS KMS</span>
+                    </div>
+                </div>
+
+                <!-- Project 7: OpenTSDB Ingestion & K8s Maintenance -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-cyan-600 bg-cyan-50 px-2.5 py-1 rounded">IoT & Pipeline</span>
+                        <span class="text-xs font-mono text-slate-400">Accenture</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">7. OpenTSDB Drilling Telemetry Ingestion</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Industrial drilling maintenance POC. Developed a Java library writing high-throughput telemetry data into OpenTSDB, set up database environments in Kubernetes, and executed SQL query scripts.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Java</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">OpenTSDB</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Kubernetes</span>
+                    </div>
+                </div>
+
+                <!-- Project 8: GenAI PDF Bot -->
+                <div class="glass-card p-6 rounded-xl space-y-3 hover:border-blue-500 transition-colors">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-semibold text-rose-600 bg-rose-50 px-2.5 py-1 rounded">GenAI & RAG</span>
+                        <span class="text-xs font-mono text-slate-400">Accenture</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">8. GenAI Equipment Manual PDF Bot (POC)</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Proof-of-concept evaluating answer correctness for technical drilling equipment manuals using AWS Bedrock and Azure GraphRAG pipelines to evaluate response precision.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 pt-2 text-[11px] font-mono">
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">AWS Bedrock</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">Azure OpenAI</span>
+                        <span class="bg-slate-100 px-2 py-0.5 rounded">GraphRAG</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Refined Skills Matrix Section -->
+        <section id="stack" class="space-y-8 border-t border-slate-200 pt-12">
+            <div>
+                <span class="text-xs font-mono uppercase tracking-widest text-blue-600 font-semibold">Technical Profile</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">Core Skills Matrix</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-sm">
+                <div class="glass-card p-5 rounded-lg space-y-2">
+                    <h4 class="font-bold text-slate-900">Languages & Core Java</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed">Java, SQL, Multithreading & Concurrency, Data Structures, OOP, SOLID Principles, Design Patterns</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-lg space-y-2">
+                    <h4 class="font-bold text-slate-900">Frameworks & Architecture</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed">Spring Boot, Spring AI, Hibernate / JPA, RESTful APIs, Distributed Microservices, MCP</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-lg space-y-2">
+                    <h4 class="font-bold text-slate-900">Databases & Storage</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed">PostgreSQL & Relational DBs, QuestDB, InfluxDB, OpenTSDB, Redis, Amazon S3</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-lg space-y-2">
+                    <h4 class="font-bold text-slate-900">Cloud & DevOps Platforms</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed">Kubernetes (AKS), Docker, Helm, Vulnerability Remediation & Patching</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-lg space-y-2">
+                    <h4 class="font-bold text-slate-900">Messaging & Middleware</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed">Apache Kafka, RabbitMQ, MQTT</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-lg space-y-2 border-l-4 border-blue-600">
+                    <h4 class="font-bold text-slate-900">Developer Tools & Productivity</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed">Git, Maven, Postman, Swagger, Nginx, AI Coding Assistant Tools</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Call to Action -->
+        <footer class="glass-card p-8 rounded-2xl text-center space-y-4 border border-blue-100">
+            <h3 class="text-2xl font-bold text-slate-900">Let's Connect for Senior Java Backend Roles</h3>
+            <p class="text-sm text-slate-600 max-w-2xl mx-auto whitespace-nowrap overflow-hidden text-ellipsis">
+                Actively interviewing for Senior Java Developer & Microservices roles in Bengaluru or remote.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 pt-2">
+                <a href="mailto:donadominic6599@gmail.com" class="px-6 py-2.5 bg-blue-600 text-white font-mono text-xs font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-sm">
+                    Send Email ✉️
+                </a>
+                <a href="https://www.linkedin.com/in/dona-dominic" target="_blank" class="px-6 py-2.5 border border-slate-300 bg-white text-slate-900 font-mono text-xs font-semibold rounded-lg hover:bg-slate-50 transition-colors">
+                    View LinkedIn Profile ↗
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
